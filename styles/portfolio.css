@@ -1,9 +1,8 @@
 /*common style tag*/
 body{
     font-family: 'Dancing Script', cursive;
-font-family: 'Ephesis', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Playfair Display', serif;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
     color: #FD6E0A;
@@ -93,13 +92,24 @@ nav a{
     margin-bottom: 30px;
 }
 /*main section style*/
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*about section style*/
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;    
+    justify-content: space-around;
+}
+.abouto-info{
+    text-align: center;
+    padding: 0 5px;
 }
 
  
